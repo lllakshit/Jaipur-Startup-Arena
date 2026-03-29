@@ -1,25 +1,20 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Space_Grotesk } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
-const displayFont = Playfair_Display({
-  variable: "--font-display",
-  subsets: ["latin"],
-});
-
-const bodyFont = Space_Grotesk({
-  variable: "--font-body",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
   title: "Jaipur Startup Arena",
   description:
-    "A shareable landing page for Jaipur's startup scene, founder energy, and early-stage hiring momentum.",
+    "Find Jaipur startup companies, inspect their hiring lanes, and explore them on a live city map.",
   openGraph: {
     title: "Jaipur Startup Arena",
     description:
-      "A shareable landing page for Jaipur's startup scene, founder energy, and early-stage hiring momentum.",
+      "Find Jaipur startup companies, inspect their hiring lanes, and explore them on a live city map.",
     url: "https://jaipur-startup-arena.vercel.app/",
     siteName: "Jaipur Startup Arena",
     type: "website",
@@ -28,7 +23,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Jaipur Startup Arena",
     description:
-      "A shareable landing page for Jaipur's startup scene, founder energy, and early-stage hiring momentum.",
+      "Find Jaipur startup companies, inspect their hiring lanes, and explore them on a live city map.",
   },
 };
 
@@ -38,7 +33,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${displayFont.variable} ${bodyFont.variable}`}>
+    <html className={inter.variable} lang="en">
       <body>{children}</body>
     </html>
   );
