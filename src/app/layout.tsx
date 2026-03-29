@@ -11,6 +11,11 @@ export const metadata: Metadata = {
   title: "Jaipur Startup Arena",
   description:
     "Find Jaipur startup companies, inspect their hiring lanes, and explore them on a live city map.",
+  icons: {
+    icon: "/icon.png",
+    shortcut: "/icon.png",
+    apple: "/icon.png",
+  },
   openGraph: {
     title: "Jaipur Startup Arena",
     description:
