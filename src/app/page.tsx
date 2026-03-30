@@ -23,7 +23,7 @@ export default function Home() {
               Open map
             </Link>
             <Link
-              className="rounded-full bg-white px-4 py-2 font-semibold text-black transition hover:bg-orange-200"
+              className="rounded-full bg-orange-500 px-4 py-2 font-semibold text-white transition hover:bg-orange-600"
               href="/api/companies?city=jaipur"
             >
               API
@@ -80,7 +80,7 @@ export default function Home() {
 
             <div className="flex flex-wrap gap-3">
               <Link
-                className="inline-flex items-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-black transition hover:bg-orange-200"
+                className="inline-flex items-center rounded-full bg-gradient-to-r from-orange-400 to-orange-600 px-6 py-3 text-sm font-semibold text-white transition hover:from-orange-500 hover:to-orange-700 shadow-md shadow-orange-500/20"
                 href="/map"
               >
                 Enter the arena
@@ -99,7 +99,7 @@ export default function Home() {
                   Always fresh shape
                 </p>
                 <p className="mt-3 text-sm leading-6 text-white/65">
-                  BLR-style product structure with Jaipur company cards, domain
+                  Purpose-built product structure highlighting Jaipur company cards, domain
                   filters, and API-backed map data.
                 </p>
               </div>
@@ -185,8 +185,8 @@ export default function Home() {
                 </div>
 
                 <div className="rounded-2xl border border-amber-300/10 bg-amber-300/[0.06] p-4 text-sm leading-6 text-white/60">
-                  Alpha Jaipur dataset for the product and API layer. Structured
-                  like the BLR experience so it can expand into automated daily
+                  Comprehensive Jaipur startup dataset for the product and API layer. Structured
+                  for high scalability so it can easily expand into automated daily
                   refreshes later.
                 </div>
               </div>

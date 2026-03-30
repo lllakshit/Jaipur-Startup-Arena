@@ -303,7 +303,7 @@ export function CityExplorer() {
                   Website
                 </a>
                 <a
-                  className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-black hover:bg-orange-200"
+                  className="rounded-full bg-orange-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-orange-600 shadow-md shadow-orange-500/20"
                   href={activeCompany.careersUrl}
                   rel="noreferrer"
                   target="_blank"
